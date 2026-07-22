@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FROM TV Series</title>
+
+    <style>
+      /* Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      body {
+        background-color: #0f172a;
+        color: white;
+        padding: 30px;
+      }
+
+      /* ID Selector */
+      #main {
+        background-color: #1e293b;
+        padding: 25px;
+        border-radius: 15px;
+      }
+
+      /* Element Selector */
+      h1 {
+        color: #f97316;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Grouping Selector */
+      h2,
+      h3 {
+        color: #38bdf8;
+        margin-top: 15px;
+      }
+
+      /* Class Selector */
+      .about {
+        color: #e2e8f0;
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      /* Descendant Selector */
+      .story p {
+        background-color: #334155;
+        padding: 12px;
+        border-radius: 10px;
+        margin-top: 10px;
+      }
+
+      /* Attribute Selector */
+      input[type="text"] {
+        width: 250px;
+        padding: 10px;
+        border: 2px solid #f97316;
+        border-radius: 8px;
+        margin-top: 15px;
+      }
+
+      /* Pseudo Class */
+      button:hover {
+        background-color: #ef4444;
+        color: white;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #22c55e;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+        cursor: pointer;
+      }
+
+      /* Pseudo Element */
+      .about::first-letter {
+        font-size: 32px;
+        color: #f472b6;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <h1>FROM TV Series</h1>
+
+      <h2>Mystery Horror</h2>
+      <h3>Popular Thriller Series</h3>
+
+      <p class="about">
+        FROM is a horror mystery series about a strange town where people cannot
+        escape.
+      </p>
+      <p>welcome to the world of FROM!</p>
+
+      <div class="story">
+        <p>
+          The town becomes dangerous at night because mysterious creatures
+          appear.
+        </p>
+        <p>The characters must work together to survive the night.</p>
+      </div>
+
+      <input type="text" placeholder="Search Characters" />
+
+      <br /><br />
+
+      <button>Watch Trailer</button>
+    </div>
+  </body>
+</html>

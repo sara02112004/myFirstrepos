@@ -1,0 +1,57 @@
+// //arithmetic operators
+// let num1 = 20;
+// let num2 = 4;
+// const add = num1 + num2;
+// const sub = num1 - num2;
+// const multi = num1 * num2;
+// const divi = num1 / num2;
+// const modulus = num1 % num2;
+// console.log("addition:", add);
+// console.log("subtraction:", sub);
+// console.log("multiplication:", multi);
+// console.log("division:", divi);
+// console.log("modulus:", modulus);
+// // let a = 6;
+// // let b = 5;
+// const postfixIncrement = a++;
+// const prefixincrement = ++a;
+// const postfixdecrement = b--;
+// const prefixdecrement = --b;
+
+// console.log("postfixincrement:", postfixIncrement);
+// console.log("prefixincrement:", prefixincrement);
+// console.log("postfixdecrement:", postfixdecrement);
+// console.log("prefixdecrement:", prefixdecrement);
+//assignment operators
+// let a;
+// a = 6;
+// console.log("assignment operator:", a);
+// let b = 6;
+// b += 5;
+// console.log("addition operator:", b);
+// let c = 7;
+// c -= 2;
+// console.log("subtraction operator:", c);
+// let d = 8;
+// d *= 2;
+// console.log("multi operator:", d);
+// let e = 9;
+// e /= 3;
+// console.log("div op:", e);
+// let f = 11;
+// f %= 4;
+// console.log("mod op:", f);
+// let g = 7;
+// g **= 3;
+// console.log("exponent op:", g);
+//comparison op
+let a = 10;
+let b = 5;
+console.log("greater than:", a > b);
+console.log("less than:", a < b);
+console.log("greater than or equal:", a >= 10);
+console.log("lessn than or equal:", b <= 8);
+console.log("loose equality:", a == "10");
+console.log("strict equality:", b === "10");
+console.log("not equal:", a != b);
+console.log("strict not equal:", a !== "10");

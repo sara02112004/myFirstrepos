@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*flexbox*/
+      .container {
+        display: flex;
+        background-color: aquamarine;
+        padding: 10px;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: cadetblue;
+        margin: 10px;
+      }
+      /*flex-direction: column*/
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        background-color: burlywood;
+      }
+      /*flex-wrap: wrap*/
+      .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: bisque;
+      }
+      /*justify-content*/
+      .container4 {
+        display: flex;
+        justify-content: end;
+        background-color: cornflowerblue;
+      }
+      /*align-item*/
+      .container5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: crimson;
+        width: 800px;
+        height: 800px;
+      }
+      /*align-content*/
+      .container6 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        background-color: darkgrey;
+        width: 800px;
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>FLEXBOX</h4>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>flex direction</h4>
+    <div class="container2">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>flex wrap</h4>
+    <div class="container3">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>justify content</h4>
+
+    <div class="container4">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>align item</h4>
+
+    <div class="container5">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>align content</h4>
+
+    <div class="container6">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
+</html>

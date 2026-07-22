@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: rgb(180, 85, 85);
+        justify-content: space-around;
+      }
+      .grid {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        background-color: rgb(85, 180, 85);
+      }
+      .child {
+        background-color: rgb(85, 85, 180);
+        padding: 20px;
+        text-align: center;
+        border: 2px solid black;
+      }
+      .hidden {
+        visibility: hidden;
+      }
+      .container {
+        position: relative;
+        border: 2px solid black;
+        width: 300px;
+        height: 100px;
+        background-color: lightyellow;
+      }
+      .contain {
+        position: absolute;
+        top: 20px;
+
+        left: 50px;
+        top: 50px;
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <!--BLOCK-->
+    <div
+      style="
+        display: block;
+        background-color: lightpink;
+        color: rgb(57, 1, 71);
+        padding: 10px;
+      "
+    >
+      <p>this is the display page</p>
+    </div>
+    <br />
+    <!--inline-->
+    <span style="display: inline; background-color: lightgreen; padding: 10px"
+      >inline element</span
+    >
+    <span style="display: inline; background-color: lightseagreen; padding: 5px"
+      >another inline</span
+    >
+    <span
+      style="
+        display: inline;
+        background-color: rgb(238, 144, 211);
+        padding: 20px;
+      "
+      >inline element</span
+    >
+    <br /><br />
+    <!--inlineblock-->
+    <span
+      style="
+        display: inline-block;
+        background-color: lightcoral;
+        width: 100px;
+        height: 75px;
+        text-align: center;
+        margin: 5px;
+      "
+    >
+      <h5>inline-block element</h5>
+    </span>
+    <div
+      style="
+        display: inline-block;
+        background-color: lightblue;
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+      "
+    >
+      inline-block element2
+    </div>
+    <br />
+    <!--none-->
+    <div style="display: none">
+      <p>this is a none element</p>
+    </div>
+    <div>
+      <p>this is a visible element</p>
+    </div>
+    <!-- flex -->
+    <div class="flex-container">
+      <div style="background-color: mediumaquamarine; padding: 10px">
+        flex container1
+      </div>
+      <div style="background-color: mediumaquamarine; padding: 10px">
+        flex container2
+      </div>
+      <div style="background-color: mediumaquamarine; padding: 10px">
+        flex container3
+      </div>
+      <div style="background-color: mediumaquamarine; padding: 10px">
+        flex container4
+      </div>
+      <div style="background-color: mediumaquamarine; padding: 10px">
+        flex container5
+      </div>
+    </div>
+    <!--grid-->
+    <div class="grid">
+      <div class="child">grid 1</div>
+      <div class="child">grid 2</div>
+      <div class="child">grid 3</div>
+      <div class="child">grid 4</div>
+      <div class="child">grid 5</div>
+    </div>
+    <!--visibility-->
+    <p class="hidden">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, pariatur.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, corrupti.
+    </p>
+    <!--overflow-->
+    <div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse obcaecati
+        odio repellat officiis commodi iusto id nemo! Sit, quas autem molestiae
+        commodi unde inventore eius eveniet, neque excepturi pariatur
+        repellendus voluptate iusto suscipit possimus veniam. Aut deleniti
+        beatae fugit quam illum. Vero repudiandae amet maiores nisi illo sunt,
+        incidunt saepe.
+      </p>
+    </div>
+    <!--position-->
+    <div class="container">
+      <div class="contain">1</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* element selector */
+      h1{
+        color: red;
+        text-align: center;
+      }
+      /* attribute selector */
+      [type="text"]{
+        color: rgb(128, 0, 62);  
+        border: 2px solid rgb(181, 8, 37);
+        padding: 5px;
+        border-radius: 5px;
+      }
+      /* descendent selector */
+      .descendent.selector p{
+        color: rgb(0, 0, 255);
+      }
+      /*pseudo class selector */
+      button:hover{
+        background-color: rgb(0, 255, 255);
+        color: rgb(255, 0, 0);
+      }
+    /*colors*/
+      
+      </style>
+  </head>
+  <body style="background-color: rgb(210, 168, 168);">
+    <h1 style="color:blueviolet;background-color:beige;font-size: 70px;width:fit-content;font-weight:bold;font-family:Verdana, Geneva, Tahoma, sans-serif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis odit cumque reiciendis error natus repellat, quaerat ducimus, ad quidem accusamus, cupiditate quod a modi reprehenderit.</h1>
+<p style="color: blueviolet;text-align:left;text-decoration: overline;text-transform: uppercase;">this is a paragraph</p>
+    
+    <div class="container">
+      <p>This is a  simple paragraph.</p>     
+      <p>This is a  simple paragraph.</p>
+      <p>This is a  simple paragraph.</p>
+      <p>This is a  simple paragraph.</p>
+      <h4>This is a  simple paragraph.</h4>
+
+    </div>
+    <p>this is the first paragraph</p>
+    <p>this is the second paragraph</p>
+    <button>click me</button>
+
+    <div class="descendent.selector">
+      <p>this is a descendent selector</p>
+      <h5>this is a descendent selector</h5>
+    </div>
+    <p id="para">This is a <i> simple paragraph.</i></p>
+    <p style="color: blueviolet;">HTML stands for <b><mark>HyperText Markup Language</b></mark></b>.</p>
+    <p>
+      mathametical formula :(a+b)<sup>2</sup> = a<sup>2</sup>+b<sup>2</sup>+2ab
+    </p>
+    <p><u> H<sub>2</sub>O </u> is a chemical formula for water.</p>
+    <input type="text" placeholder="enter your name ">
+    /* pseudo element selector */
+    <h2 >Pseudo Element </h2>
+    <p>this is a pseudo element</p>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>orange</li>
+    </ol>
+    <ul>
+        <li>car</li>
+        <li>bike</li>
+        <li>bus</li>
+    </ul>
+  </body>
+</html>
